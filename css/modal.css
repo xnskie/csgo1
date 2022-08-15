@@ -1,4 +1,4 @@
-.is-hidden {
+.as-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -14,8 +14,8 @@
 
 .modal {
     background-color: #fff;
-    width: 80%;
-    min-height: 40%;
+    width: 528px;
+    min-height: 581px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +35,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -57,11 +56,12 @@
     border-radius: 50%;
     padding: 0;
     background-color: transparent;
-    height: 30%;
+    height: 30px;
     border-color: transparent;
-    margin-bottom: 10%;
+    margin-bottom: 10px;
     fill: #0060fe;
     cursor: pointer;
+    position: absolute;
 }
 
 .download-btn {
